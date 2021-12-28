@@ -1,0 +1,45 @@
+Test suite hw2-test: RUNNING...
+Unit
+  Unit
+    Arithmetic
+      2:                             OK
+      0:                             OK
+      -1:                            OK
+      1 + 2:                         OK
+      1 - 2:                         OK
+      4 / 2:                         OK
+      4 / 0:                         OK
+      0 / 2:                         OK
+      2 ^ 4:                         OK
+      2 ^ 0:                         OK
+      2 ^ -1:                        OK
+    stringSum
+      5 5 +5 -5:                     OK
+      5
+	 5 	
++5 
+		
+-5:             OK
+      5 5 +5 lul -5:                 OK
+    Parsers
+      ok "lul":                      OK
+      eof "lul":                     OK
+      eof "":                        OK
+      element 'a' "lul":             OK
+      element 'l' "lul":             OK
+      stream "lu" "lul":             OK
+      stream "la" "lul":             OK
+      nat "+42" :                    OK
+      nat "-42" :                    OK
+      brackets "(()(()))()()":       OK
+      brackets ")(":                 OK
+      brackets "(()":                OK
+      list "2, 1,+10  , 3,5,-7, 2":  OK
+      list "2, 1,+10, 0, 3,5,-7, 2": OK
+      list "2, 1,+10, 0, 3,5,-7, 2": OK
+  bin test:                          OK (20.79s)
+    OK
+
+All 30 tests passed (20.79s)
+Test suite hw2-test: PASS
+Test suite logged to: /Users/SuperStrongDinosaur/Programing/Haskell/hw2/dist-newstyle/build/x86_64-osx/ghc-8.2.2/hw2-0.1.0.0/c/hw2-test/test/hw2-0.1.0.0-hw2-test.log
