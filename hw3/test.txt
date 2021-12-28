@@ -1,0 +1,8 @@
+mut y = 1 
+mut x = 1 
+mut z = x + 3 * (let x = 2 in x)
+> x 
+for (0 to 1) {
+mut xx = 10 
+} 
+< x

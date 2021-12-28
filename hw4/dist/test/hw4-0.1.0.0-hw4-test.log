@@ -1,0 +1,11 @@
+Test suite hw4-test: RUNNING...
+
+Lens
+  view
+  set
+  over
+
+Finished in 0.0002 seconds
+3 examples, 0 failures
+Test suite hw4-test: PASS
+Test suite logged to: dist/test/hw4-0.1.0.0-hw4-test.log
